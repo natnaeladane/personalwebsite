@@ -1,0 +1,377 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  
+
+}
+
+li {
+
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  
+
+
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: orange;
+	text-shadow: 1px 1px black;
+	animation-name: activee;
+	animation-duration: 6s;
+	animation-iteration-count: infinite;
+	
+
+}
+
+  body {
+  background-color: skyblue;
+  background-image: url("images/blurr.jpg");
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  font-family: "calibri";
+  position: relative;
+  width: 1348px;
+  height: 640px;
+  object-fit: cover;
+  		animation-name: imageshift;
+	animation-duration: 15s;
+	animation-iteration-count: infinite;
+}
+.forntimage{
+
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	border-width: 5px;
+	border-style: dashed;
+	border-color: orange;
+	opacity: 1;
+	position: absolute;
+	left: 40%;
+	top: 150px;
+	animation-name: example;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    object-fit: cover
+
+
+}
+.frondiv{
+
+	width: 330px;
+	height: 400px;
+	margin-top: 50px;
+	margin-left: 35%;
+	background-color: white;
+	left: 30%;
+	top: 100px;
+	opacity: 0.2;
+	border-radius: 5%;
+	border-style: dotted;
+	border-color: orange;
+
+}
+.name{
+	position: absolute;
+	left: 36%;
+	top: 325px;
+	color: white;
+	font-size: 50px;
+    text-shadow: 2px 2px orange;
+}
+.profesion{
+	position: absolute;
+	left: 42.2%;
+	top: 415px;
+	color: white;
+	font-size: 20px;
+    text-shadow: 1px 1px orange;
+29
+}
+.pls{
+	position: absolute;
+	left: 29%;
+	top: 500px;
+	color: black;
+	font-size: 40px;
+	color: orange;
+	text-shadow: 1px 1px black;
+}
+.footer{
+
+   list-style-type: none;
+  overflow: hidden;
+  background-color: #333;
+position: absolute;
+bottom: 1%;
+width: 100%;
+
+}
+.footerli{
+  float: left;
+  opacity: 1;
+  margin-left: 43%;
+}
+.footera{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+div.gallery {
+  margin: 16px;
+  float: left;
+  width: 300px;
+  border: 1px dotted #777;
+  opacity: 1;
+  animation-name: data;
+  animation-duration: 1s;
+   animation-timing-function: linear;
+}
+
+
+div.gallery:hover {
+  border: 3px dashed;
+width:305px; 
+opacity: 1;
+color: white;
+border-color: orange;
+padding-top: 30px;
+  box-shadow: 0 0 10px 10px rgba(0, 140, 186, 0.5);
+
+
+
+
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+
+
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  opacity: 1;
+}
+#video {
+  width:24%;
+  height: auto; 
+}
+
+div.vgal {
+  margin: 5px;
+  float: left;
+  width: 300px;
+  border: 1px dotted #777;
+    animation-name: data;
+  animation-duration: 1s;
+   animation-timing-function: linear;
+
+}
+div.vgal:hover {
+  border: 3px dashed orange;
+    color: white;
+
+}
+.videos{
+margin-left: 50px;
+margin-top: 70px
+
+
+
+}
+.bio{
+	color: white;
+font-size: 20px;
+margin-left: 10%;
+margin-right: 10%;
+margin-bottom: 10%;
+  text-align: justify;
+  text-justify: inter-word;
+   text-indent: 50px;
+   	text-shadow: 1px 1px black;
+
+}
+
+h1{
+	color: white;
+}
+tr img{
+	width: 50px;
+	height: auto;
+
+
+}
+.mytable{
+	margin-left: 50px;
+	margin-top: 100px;
+	text-shadow: 1px 1px black;
+
+}
+th{
+
+	text-align: left;
+}
+.logo{
+
+	color:  white;
+	text-decoration: none;
+}
+tr:hover{
+	background-color: orange;
+	animation-name: activee;
+	animation-duration: 6s;
+	animation-iteration-count: infinite;
+
+}
+
+#contact{
+	background: transparent; 
+	position: absolute;
+	left: 400px;
+	top: 37px;	
+	color: white;
+
+
+}
+#field{
+	position: absolute;
+	left: 350px;
+	top: 50px;
+	font-size: 100%;
+	padding: 20px;
+	font-family: verdana;
+	font-weight: bold;
+	border-style: dotted;
+	border-color: orange;
+	animation-name: field;
+	animation-duration: 1s;
+	animation-delay: 1s;
+	animation-iteration-count: 3;
+}
+label{
+
+	font-size: 200%;
+	font-family: verdana;
+	font-weight: bold;
+	text-shadow: 1px 1px black;
+
+}
+
+.form{
+	width: 400px;
+	background: transparent;
+	border:none;
+	outline: none;
+	font-size: 18px;
+	margin-bottom: 16px;
+	border-bottom: 1px solid;
+	text-decoration-color: white;
+	color: white;
+
+
+}
+input{
+	height: 45px;
+	text-shadow: 1px 1px black;
+}
+form .submit{
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+	border: 2px solid orange;
+	  box-shadow: 0 15px 15px 0 rgba(0,0,0,0.3), 0 15px 15px 0 rgba(0,0,0,0.3);
+
+
+}
+form .submit:hover{
+		background-color: orange;
+		animation-name: activee;
+	animation-duration: 6s;
+	animation-iteration-count: infinite;
+
+}
+form .submit:active{
+		background-color: black;
+
+}
+textarea{
+	column-fill: balance;}
+.contactbody  {
+  background-color: skyblue;
+  background-image: url("images/back.png");
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  font-family: "calibri";
+  position: relative;
+  width: 1348px;
+  height: 640px;
+
+}
+
+@keyframes example {
+  0%   {left:40%; top:150px;}
+  25%  {left:40%; top:120px;}
+  50%  {left:40%; top:150px;}
+  75%  {left:40%; top:120px;}
+  100% {left:40%; top:150px;}
+}
+
+@keyframes activee {
+  0%   {background-color: orange;}
+  25%  {background-color: red;}
+  50%  {background-color: orange;}
+  75%  {background-color: red;}
+  100% {background-color: orange;}
+}
+@keyframes data {
+  0%   {  width: 0px;}
+  25%  {  width: 45px;}
+  50%  {  width: 150px;}
+  75%  {  width: 225px;}
+  100% {  width: 300px;}
+}
+@keyframes field {
+  0%   {  border-color: orange;}
+  25%  {  border-color: black;}
+  50%  {  border-color: orange;}
+  75%  {  border-color: black;}
+  100% {  border-color: orange;}
+}
+
+@keyframes imageshift {
+  0%   {    background-image: url("images/blurr.jpg"); }
+  25%  {    background-image: url("images/9.jpg");}
+  50%  {    background-image: url("images/blurr.jpg");}
+  75%  {    background-image: url("images/9.jpg");}
+  100% {   background-image: url("images/blurr.jpg");}
+}
+
